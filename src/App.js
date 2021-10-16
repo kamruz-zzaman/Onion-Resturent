@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import AboutUS from './component/About Us/AboutUS/AboutUS';
 import Food_Menus from './component/Food_Menus/Breakfast/Food_Menus';
 import Dinner from './component/Food_Menus/Dinner/Dinner';
 import Lunch from './component/Food_Menus/Lunch/Lunch';
@@ -25,6 +26,7 @@ function App() {
             <Dinner></Dinner>
           </Route>
         </Switch>
+        <AboutUS></AboutUS>
       </Router>
 
     </div>

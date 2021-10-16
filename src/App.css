@@ -2,6 +2,6 @@
 /* selected path stylized */
 .selected
   {
-    color: goldenrod;
+    color: rgb(218, 32, 32);
     font-weight: bold;
   }
