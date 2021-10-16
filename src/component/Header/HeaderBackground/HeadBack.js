@@ -11,7 +11,7 @@ const HeadBack = () => {
                 </div>
                 <form className='ml-12 mt-8 ' >
                     <input type="text" name="Search Food Item" placeholder='Search Food Item' required className='sm-py-1 md:py-2 lg:py-2 px-8 w-10/12 rounded-3xl' />
-                    <button className='-mx-20 md:py-2 lg:py-2 px-4 font-semibold rounded-3xl transition duration-500  text-white  bg-red-600 hover:bg-red-700 lg:text-xl '>Search</button>
+                    <button className='-mx-20 md:py-2 lg:py-2 px-4 font-semibold rounded-3xl transition duration-500  text-white  bg-red-600 hover:bg-red-700  '>Search</button>
                 </form>
             </div>
         </div>
