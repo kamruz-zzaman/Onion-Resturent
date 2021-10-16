@@ -5,6 +5,7 @@ import Food_Menus from './component/Food_Menus/Breakfast/Food_Menus';
 import Dinner from './component/Food_Menus/Dinner/Dinner';
 import Lunch from './component/Food_Menus/Lunch/Lunch';
 import MenuNav from './component/Food_Menus/Menu_Navbar/MenuNav';
+import Footer from './component/Footer/Footer';
 import Navbar from './component/Header/Navbar/Navbar';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           </Route>
         </Switch>
         <AboutUS></AboutUS>
+        <Footer></Footer>
       </Router>
 
     </div>
