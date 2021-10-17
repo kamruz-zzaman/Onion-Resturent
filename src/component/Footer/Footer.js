@@ -23,14 +23,14 @@ const Footer = () => {
                     </div>
                 </div>
             </div >
-            <div className='flex justify-between mt-3'>
+            <div className='flex justify-between mt-8'>
                 <div className='m-3'>
                     <p className='text-white mx-5'>Copyright © 2021 Online Food</p>
                 </div>
                 <div className='flex justify-between m-3'>
                     <div><p className='text-white mx-5'>Privecy Policy</p></div>
                     <div><p className='text-white mx-5'>Terms Of Us</p></div>
-                    <div><p className='text-white mx-5'>Pricing</p></div>
+                    <div><p className='text-white'>Pricing</p></div>
                 </div>
             </div>
         </div>

@@ -7,6 +7,7 @@ import Lunch from './component/Food_Menus/Lunch/Lunch';
 import MenuNav from './component/Food_Menus/Menu_Navbar/MenuNav';
 import Footer from './component/Footer/Footer';
 import Navbar from './component/Header/Navbar/Navbar';
+import Regedtration from './component/Header/Regestration/Regedtration';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         <Switch>
           <Route path='/breakfast'>
             <Food_Menus></Food_Menus>
+          </Route>
+          <Route path='/regestration'>
+            <Regedtration></Regedtration>
           </Route>
           <Route path='/lunch'>
             <Lunch></Lunch>
